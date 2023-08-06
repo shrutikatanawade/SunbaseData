@@ -27,7 +27,7 @@ function authenticate() {
             // Store the token for future API calls
             bearerToken = data.token;
             alert('Authentication successful. Token received.');
-            // You can redirect to the customer list page or perform other actions here
+             window.location.href = 'customerList.html';
         } else {
             alert('Authentication failed.');
         }
